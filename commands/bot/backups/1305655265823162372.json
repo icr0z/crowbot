@@ -1,0 +1,216 @@
+{
+    "name": "bot js",
+    "region": "deprecated",
+    "verificationLevel": "NONE",
+    "explicitContentFilter": "DISABLED",
+    "defaultMessageNotifications": "ALL",
+    "afk": null,
+    "widget": {
+        "channel": null
+    },
+    "channels": {
+        "categories": [
+            {
+                "name": "Statistique(s) Serveur",
+                "permissions": [],
+                "children": [
+                    {
+                        "type": "voice",
+                        "name": "💎・Membres: 2",
+                        "bitrate": 64000,
+                        "userLimit": 0,
+                        "parent": "Statistique(s) Serveur",
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": 1024,
+                                "deny": 1048576
+                            }
+                        ]
+                    },
+                    {
+                        "type": "voice",
+                        "name": "🌟・En ligne: 2",
+                        "bitrate": 64000,
+                        "userLimit": 0,
+                        "parent": "Statistique(s) Serveur",
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": 1024,
+                                "deny": 1048576
+                            }
+                        ]
+                    },
+                    {
+                        "type": "voice",
+                        "name": "🎧・En vocal: 0",
+                        "bitrate": 64000,
+                        "userLimit": 0,
+                        "parent": "Statistique(s) Serveur",
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": 1024,
+                                "deny": 1048576
+                            }
+                        ]
+                    },
+                    {
+                        "type": "voice",
+                        "name": "🔮・Boost: 0",
+                        "bitrate": 64000,
+                        "userLimit": 0,
+                        "parent": "Statistique(s) Serveur",
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": 1024,
+                                "deny": 1048576
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "bot js",
+                "permissions": [
+                    {
+                        "roleName": "muet",
+                        "allow": 0,
+                        "deny": 1050688
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "text",
+                        "name": "test",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "bot js",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1050688
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    }
+                ]
+            },
+            {
+                "name": "logs",
+                "permissions": [],
+                "children": [
+                    {
+                        "type": "text",
+                        "name": "mods",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "logs",
+                        "topic": null,
+                        "permissions": [],
+                        "messages": [],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "message",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "logs",
+                        "topic": null,
+                        "permissions": [],
+                        "messages": [],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "vocal",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "logs",
+                        "topic": null,
+                        "permissions": [],
+                        "messages": [],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "raid",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "logs",
+                        "topic": null,
+                        "permissions": [],
+                        "messages": [],
+                        "isNews": false
+                    }
+                ]
+            },
+            {
+                "name": "vocal",
+                "permissions": [],
+                "children": [
+                    {
+                        "type": "voice",
+                        "name": "Vocal",
+                        "bitrate": 64000,
+                        "userLimit": 0,
+                        "parent": "vocal",
+                        "permissions": []
+                    }
+                ]
+            },
+            {
+                "name": "Salon temporaire",
+                "permissions": [],
+                "children": [
+                    {
+                        "type": "voice",
+                        "name": "➕・Crée ton salon",
+                        "bitrate": 64000,
+                        "userLimit": 0,
+                        "parent": "Salon temporaire",
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": 3146752,
+                                "deny": 0
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "others": []
+    },
+    "roles": [
+        {
+            "name": "muet",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": 0,
+            "mentionable": false,
+            "position": 2,
+            "isEveryone": false
+        },
+        {
+            "name": "@everyone",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": 104320577,
+            "mentionable": false,
+            "position": 0,
+            "isEveryone": true
+        }
+    ],
+    "bans": [],
+    "emojis": [],
+    "createdTimestamp": 1731362873274,
+    "guildID": "1305316229506011236",
+    "id": "1305655265823162372"
+}

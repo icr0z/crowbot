@@ -1,0 +1,12 @@
+{
+    "color": "#FFFFFF",
+    "prefix": "+",
+    "name": "bot js",
+    "defaultjoinmessage": "{user} vient de rejoindre. Il a été invité par **{inviter:name}** qui a désormais **{invite} invitations** !",
+    "defaultleavemessage": "{user} vient de quitter. Il avais été invité par **{inviter:name}** qui a désormais **{invite} invitations** ",
+    "defaultLevelmessage": "**{user}** vient de passer au level **{level}** bravo à lui !",
+    "owner": [
+        "702909387156488545", 
+        ""
+    ]
+}
